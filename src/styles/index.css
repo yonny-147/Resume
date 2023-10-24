@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', sans-serif;
+}
+#root{
+    width: 100%;
+}
+.miVideo{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.day{
+    background-color: #fff2f2;
+    z-index: 0;
+    color: rgba(0, 0, 0, 0.422);
+    text-shadow: 1px 2px 3px rgba(44, 44, 186, 0.609);
+}
+.none{
+    display: none;
+}

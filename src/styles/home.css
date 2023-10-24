@@ -1,0 +1,68 @@
+.welcome{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    text-transform: uppercase;
+    color: #ffffffce;
+    font-size: 25px;
+    align-items: center;
+}
+.textDecoration{
+    text-shadow: 1px 10px 10px #00000079;
+}
+.image{
+    width: 18%;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    color: #ffffffce;
+    border-radius: 10px 80px;
+    box-shadow: 1px 2px 10px 15px #00000079;
+    background-color: #000000ea;
+}
+.curriculum{
+    width: 40%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffffce;
+    flex-direction: column;
+    font-size: 22px;
+}
+.downCurri{
+    text-decoration: underline;
+}
+.downCurri:hover{
+    color: #0008ff;
+}
+.imgs{
+    position: absolute; 
+    top: 5%; 
+    bottom: 0;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation: movimiento 2s infinite linear alternate;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.img:hover{
+    padding-left: 5px;
+}
+
+@keyframes movimiento{
+    from{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    to{
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
+}
