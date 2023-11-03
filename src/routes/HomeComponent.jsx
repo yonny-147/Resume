@@ -8,7 +8,7 @@ export const HomeComponent = () => {
     <div id='curriculum' className='curriculumGene curriculum'>  
       <div className='curri'>
         <div className='animationImage bgAnimation'> 
-          <img className='image' src="/public/img.png" alt="profile" />  
+          <img className='image' src="imgs/img.png" alt="profile" />  
         </div>
         <h4 className='curriDownload textDecoration'>Download resume or view resume ↓</h4>
         <p>

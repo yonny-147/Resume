@@ -16,74 +16,74 @@ export const ProjectsComponent = () => {
         </div>
         <div className='containerProjects'>
           <div className='cart'>
-            <a href='https://rad-valkyrie-83953e.netlify.app/'><img className='imgProjects' src="../public/cardform.png" alt="cardform" /></a>
+            <a href='https://rad-valkyrie-83953e.netlify.app/'><img className='imgProjects' src="imgs/cardform.png" alt="cardform" /></a>
             <div>
               <p className='nameProject'>bank card form</p>
               <p>
-                <img className='img' src="/public/html.png" alt="html" />
-                <img className='img' src="/public/css.png" alt="css" />
-                <img className='img' src="/public/responsive.png" alt="responsive" />
-                <img className='img' src="/public/js.png" alt="js" />
+                <img className='img' src="/imgs/html.png" alt="html" />
+                <img className='img' src="/imgs/css.png" alt="css" />
+                <img className='img' src="/imgs/responsive.png" alt="responsive" />
+                <img className='img' src="/imgs/js.png" alt="js" />
               </p>
             </div>
           </div>
           <div className='cart'>
-            <a href='https://sensational-swan-3c88a7.netlify.app/'><img className='imgProjects' src="../public/countdown.png" alt="countdown" /></a>
+            <a href='https://sensational-swan-3c88a7.netlify.app/'><img className='imgProjects' src="imgs/countdown.png" alt="countdown" /></a>
             <div>
             <p className='nameProject'>Countdown</p>
               <p>
-                <img className='img' src="/public/html.png" alt="html" />
-                <img className='img' src="/public/css.png" alt="css" />
-                <img className='img' src="/public/responsive.png" alt="responsive" />
-                <img className='img' src="/public/js.png" alt="js" />
+                <img className='img' src="/imgs/html.png" alt="html" />
+                <img className='img' src="/imgs/css.png" alt="css" />
+                <img className='img' src="/imgs/responsive.png" alt="responsive" />
+                <img className='img' src="/imgs/js.png" alt="js" />
               </p>
             </div>
           </div>
           <div className='cart'>
-            <a href='https://incredible-sundae-b2e0ff.netlify.app/'><img className='imgProjects' src="../public/grades.png" alt="grades" /></a>
+            <a href='https://incredible-sundae-b2e0ff.netlify.app/'><img className='imgProjects' src="imgs/grades.png" alt="grades" /></a>
             <div>
             <p className='nameProject'>Grades</p>
               <p>
-                <img className='img' src="/public/html.png" alt="html" />
-                <img className='img' src="/public/css.png" alt="css" />
-                <img className='img' src="/public/js.png" alt="js" />
+                <img className='img' src="/imgs/html.png" alt="html" />
+                <img className='img' src="/imgs/css.png" alt="css" />
+                <img className='img' src="/imgs/js.png" alt="js" />
               </p>
             </div>
           </div>
           <div className='cart'>
-            <a href='https://piedra-papel-tijera-game-v1.netlify.app/'><img className='imgProjects' src="../public/piedra.bmp" alt="piedra" /></a>
+            <a href='https://piedra-papel-tijera-game-v1.netlify.app/'><img className='imgProjects' src='imgs/piedra.jpg' alt="piedra" /></a>
             <div>
               <p className='nameProject'>rock paper scissors</p>
               <p>
-                <img className='img' src="/public/html.png" alt="html" />
-                <img className='img' src="/public/css.png" alt="css" />
-                <img className='img' src="/public/js.png" alt="js" />
+                <img className='img' src="/imgs/html.png" alt="html" />
+                <img className='img' src="/imgs/css.png" alt="css" />
+                <img className='img' src="/imgs/js.png" alt="js" />
               </p>
             </div>
           </div>
           <div className='cart'>
-            <a href='https://sensational-swan-3c88a7.netlify.app/'><img className='imgProjects' src="../public/gallery.png" alt="gallery" /></a>
+            <a href='https://sensational-swan-3c88a7.netlify.app/'><img className='imgProjects' src="imgs/gallery.png" alt="gallery" /></a>
             <div>
             <p className='nameProject'>Gallery</p>
               <p>
-                <img className='img' src="/public/html.png" alt="html" />
-                <img className='img' src="/public/css.png" alt="css" />
-                <img className='img' src="/public/responsive.png" alt="responsive" />
-                <img className='img' src="/public/js.png" alt="js" />
-                <img className='img' src="/public/reactJS.png" alt="React js" />
+                <img className='img' src="/imgs/html.png" alt="html" />
+                <img className='img' src="/imgs/css.png" alt="css" />
+                <img className='img' src="/imgs/responsive.png" alt="responsive" />
+                <img className='img' src="/imgs/js.png" alt="js" />
+                <img className='img' src="/imgs/reactJS.png" alt="React js" />
               </p>
             </div>
           </div>
           <div className='cart'>
-            <a href='https://incredible-sundae-b2e0ff.netlify.app/'><img className='imgProjects' src="../public/portafolio.bmp" alt="portafolio" /></a>
+            <a href='https://incredible-sundae-b2e0ff.netlify.app/'><img className='imgProjects' src="imgs/portafolio.jpg" alt="portafolio" /></a>
             <div>
             <p className='nameProject'>Briefcase</p>
               <p>
-                <img className='img' src="/public/html.png" alt="html" />
-                <img className='img' src="/public/css.png" alt="css" />
-                <img className='img' src="/public/responsive.png" alt="responsive" />
-                <img className='img' src="/public/js.png" alt="js" />
-                <img className='img' src="/public/reactJS.png" alt="React js" />
+                <img className='img' src="/imgs/html.png" alt="html" />
+                <img className='img' src="/imgs/css.png" alt="css" />
+                <img className='img' src="/imgs/responsive.png" alt="responsive" />
+                <img className='img' src="/imgs/js.png" alt="js" />
+                <img className='img' src="/imgs/reactJS.png" alt="React js" />
               </p>
             </div>  
         </div>
