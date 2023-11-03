@@ -53,6 +53,11 @@
 .imgProjects{
     width: 100%;
     border-radius: 10px;
+    z-index: 0;
+}
+.imgProjects:hover{
+    width: 100%;
+    opacity: 0.5;
 }
 
 @media(max-width:780px){

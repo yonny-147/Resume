@@ -16,7 +16,7 @@ export const ProjectsComponent = () => {
         </div>
         <div className='containerProjects'>
           <div className='cart'>
-            <a href='https://rad-valkyrie-83953e.netlify.app/'><img className='imgProjects' src="imgs/cardform.png" alt="cardform" /></a>
+           <a href='https://rad-valkyrie-83953e.netlify.app/'><img className='imgProjects' src="imgs/cardform.png" alt="cardform" /></a>
             <div>
               <p className='nameProject'>bank card form</p>
               <p>
