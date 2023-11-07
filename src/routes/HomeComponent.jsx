@@ -12,7 +12,7 @@ export const HomeComponent = () => {
         </div>
         <h4 className='curriDownload textDecoration'>Download resume or view resume ↓</h4>
         <p>
-          <a className='downCurri' href="https://drive.google.com/file/d/1EXzJvhaMt2G4010Sttg_7-2BB4OuQDaq/view?usp=sharing">click here</a>
+          <a className='downCurri' href="https://drive.google.com/file/d/1Fevi-2etWrqLWxwi0n69Idl5N8QeHCrQ/view?usp=sharing">click here</a>
         </p>
       </div>
       <div className='about'>
