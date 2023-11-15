@@ -11,9 +11,13 @@ export const ProjectsComponent = () => {
         {/*proyecto #1*/}
         <div className="cart animation">
           <div className="contentCart"></div>
-          <img className="imgProjects" src="imgs/cardform.png" alt="cardform" />
+          <img
+            className="imgProjects"
+            src="imgs/portafolio.png"
+            alt="portafolio"
+          />
           <div className="dataCart">
-            <p className="nameProject">bank card form</p>
+            <p className="nameProject">Briefcase</p>
             <div className="containerImgs">
               <img className="img" src="/imgs/html.png" alt="html" />
               <img className="img" src="/imgs/css.png" alt="css" />
@@ -23,13 +27,14 @@ export const ProjectsComponent = () => {
                 alt="responsive"
               />
               <img className="img" src="/imgs/js.png" alt="js" />
+              <img className="img" src="/imgs/reactJS.png" alt="React js" />
             </div>
-            <a className="btnLink" href="https://cardformyonnydev.netlify.app/">
+            <a className="btnLink" href="https://portafolioyososp.netlify.app/">
               Link
-            </a>
+            </a>{" "}
           </div>
-        </div>
-
+          </div>
+        
         {/*proyecto #2*/}
         <div className="cart animation">
           <div className="contentCart"></div>
@@ -70,6 +75,7 @@ export const ProjectsComponent = () => {
                 <img className="img" src="/imgs/html.png" alt="html" />
                 <img className="img" src="/imgs/css.png" alt="css" />
                 <img className="img" src="/imgs/js.png" alt="js" />
+                <img className="img" src="/imgs/responsive.png" alt="responsive" />
               </div>
             <a className="btnLink" href="https://gradesyonnydev.netlify.app/">
               Link
@@ -122,31 +128,26 @@ export const ProjectsComponent = () => {
         </div>
 
         {/*proyecto #6*/}
-        <div className="cart animation">
-          <div className="contentCart"></div>
-          <img
-            className="imgProjects"
-            src="imgs/portafolio.jpg"
-            alt="portafolio"
-          />
-          <div className="dataCart">
-            <p className="nameProject">Briefcase</p>
-            <div className="containerImgs">
-              <img className="img" src="/imgs/html.png" alt="html" />
-              <img className="img" src="/imgs/css.png" alt="css" />
-              <img
-                className="img"
-                src="/imgs/responsive.png"
-                alt="responsive"
-              />
-              <img className="img" src="/imgs/js.png" alt="js" />
-              <img className="img" src="/imgs/reactJS.png" alt="React js" />
+          <div className="cart animation">
+            <div className="contentCart"></div>
+            <img className="imgProjects" src="imgs/cardform.png" alt="cardform" />
+            <div className="dataCart">
+              <p className="nameProject">bank card form</p>
+              <div className="containerImgs">
+                <img className="img" src="/imgs/html.png" alt="html" />
+                <img className="img" src="/imgs/css.png" alt="css" />
+                <img
+                  className="img"
+                  src="/imgs/responsive.png"
+                  alt="responsive"
+                />
+                <img className="img" src="/imgs/js.png" alt="js" />
+              </div>
+              <a className="btnLink" href="https://cardformyonnydev.netlify.app/">
+                Link
+              </a>
             </div>
-            <a className="btnLink" href="https://portafolioyososp.netlify.app/">
-              Link
-            </a>{" "}
           </div>
-        </div>
       </div>
     </>
   );
