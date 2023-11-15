@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom'
-import '../styles/barraNav.css'
+import { Link } from 'react-scroll';
+import '../styles/index.css'
 export const BarNavegation = () => {
 
   return (
@@ -9,13 +9,13 @@ export const BarNavegation = () => {
         <nav>
             <ul>
                 <li>
-                    <NavLink id='routasAbout' className='firsText' to={"/"}>About</NavLink>
+                    <Link to='home' smooth={true} duration={500} className='firsText' >About</Link>
                 </li>
                 <li>
-                    <NavLink id='routasProjects' className='firsText' to={"/projects"}>Projects</NavLink>
+                    <Link to='projects' smooth={true} duration={500} className='firsText' >Projects</Link>
                 </li>
                 <li>
-                    <NavLink id='routasContact' className='firsText' to={"/contact"}>contact</NavLink>
+                    <Link to='contact' smooth={true} duration={500} className='firsText' >Contact</Link>
                 </li>
             </ul>
         </nav>

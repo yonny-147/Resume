@@ -9,17 +9,272 @@ body{
     background-color: #003026;
 }
 
-#root{
+.animation{
+    view-timeline-name: --cart;
+    view-timeline-axis: block;
+    animation-timeline: --cart;
+    animation-name: move;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+.header{
     width: 100%;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    background-color: #00000080;
+    box-shadow: 1px 1px 15px #00000080;
+    animation:scale-up-center 0.4s; 
 }
 
-.none{
-    display: none;
+nav{
+    width: 100%;
 }
 
-.textNav{
-    text-shadow: #003026;
-    color: black;
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
+li{
+    list-style: none;
+    padding: 10px 15px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.firsText{
+    font-size: 25px;
+    text-decoration: none;
+    color: #eafff6;
+    transition:all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.firsText:hover{
+    color: #01d194;
+}
+
+.animationImage {
+    position: absolute;
+    width: 63.7%;
+    top: 73%;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(90deg,#003026,#01d194,#eafff6);
+    z-index: -1;
+}
+
+.bgAnimation::before{
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    background: linear-gradient(120deg,#01d194,#eafff6);
+    background-size: 200%;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    z-index: -1;
+}
+
+.position2{
+    top: 90%;
+}
+
+.position3{
+    width: 5%;
+    top: 73%;
+    left: 94.8%;
+}
+
+.position4{
+    width: 5%;
+    top: 90%;
+    left: 94.8%;
+}
+
+.curriculumGene {
+    width: 50%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #eafff6;
+    justify-content: center;
+    margin: 0 85px;
+    animation:scale-up-horizontal-center 0.4s
+}
+
+.name{
+    font-size: 60px;
+    color: #01d194;
+    text-shadow: 1px 1px 15px #00000080;
+    text-transform: uppercase;
+}
+
+.curriDownload{
+    margin-top: 60px;
+}
+
+.marco{
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background-color: #00000080;
+    box-shadow: 1px 1px 15px #000000ab;
+    bottom: 0;
+    bottom: 0;
+    right: 5%;
+}
+
+.image{
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    bottom: 0;
+    right: 5%;
+    animation:scale-up-horizontal-center 0.4s
+}
+
+.downCurri{
+    width: 80%;
+    text-decoration: underline;
+    color: #01d194;
+    text-align: center;
+}
+
+.downCurri:hover{
+    color: #fff;
+}
+
+.container{
+    text-align: center;
+    color: #eafff6;
+    margin: 45px auto;
+}
+
+.tittleProject{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 0px 1px 1px #01d194;
+}
+
+.containerProjects{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cart{
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #cdfee7;
+    box-shadow: 1px 1px 5px 1px #01d194;
+}
+
+.nameProject{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #cdfee7;
+    text-transform: uppercase;
+}
+
+.imgProjects{
+    width: 100%;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.imgProjects:hover{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.dataCart{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #003026;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.img{
+    width: 40px;
+    border-radius: 10px;
+    margin: 0 4px;
+}
+
+.containerImgs{
+    margin: 15px;
+}
+
+.btnLink{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #003026;
+    background-color: #cdfee7;
+    border-radius: 10px;
+}
+
+.btnLink:hover{
+    opacity: 0.5;
+}
+
+.networksSocial{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialImg{
+    width: 40px;
+    filter: invert(99%) sepia(0%) saturate(472%) hue-rotate(214deg) brightness(113%) contrast(100%);
+}
+
+.socialImg:hover{
+    filter: invert(76%) sepia(97%) saturate(238%) hue-rotate(92deg) brightness(95%) contrast(96%);
+}
+
+@keyframes move{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+@keyframes scale-up-horizontal-center{
+    0%{
+        transform:scaleX(.2)
+    }
+    100%{
+        transform:scaleX(1)
+    }
+}
+
+@keyframes scale-up-center{ 
+    0%{
+        transform:scaleX(.4);transform-origin:left center
+    }
+    100%{
+        transform:scaleX(1);transform-origin:left center
+    }
+}

@@ -1,19 +1,25 @@
-import { Navigate, Route, Routes } from "react-router-dom"
+import { BarNavegation } from './components/BarNavegation'
 import { HomeComponent } from './routes/HomeComponent'
 import { ProjectsComponent } from './routes/ProjectsComponent'
 import { ContactComponent } from './routes/ContactComponent'
-import { BarNavegation } from './components/BarNavegation'
+import { Element } from 'react-scroll';
 
 export const App = () => {
   return (
   <>
-    <BarNavegation/>
-    <Routes>
-      <Route path={"/"} element={ <HomeComponent/> }></Route>
-      <Route path={"/projects"} element={ <ProjectsComponent/> }></Route>
-      <Route path={"/contact"} element={ <ContactComponent/> }></Route>
-      <Route path={"/*"} element={ <Navigate to="/"></Navigate> }></Route>
-    </Routes>
+    <BarNavegation />
+
+    <Element name='home'>
+      <HomeComponent />
+    </Element>
+
+    <Element name='projects'>
+      <ProjectsComponent />
+    </Element>
+
+    <Element name='contact'>
+      <ContactComponent />
+    </Element>
   </>
   )
 }
