@@ -5,7 +5,7 @@ export const BarNavegation = () => {
   return (
     <>
     <div className='header'>
-
+        <img className='cancel' src="../public/imgs/cancelar.png" alt="" />
         <nav>
             <ul>
                 <li>
@@ -19,6 +19,9 @@ export const BarNavegation = () => {
                 </li>
             </ul>
         </nav>
+    </div>
+    <div>
+        <img className='menu' src="../public/imgs/menu.png" alt="menu" />
     </div>
     </>
   )

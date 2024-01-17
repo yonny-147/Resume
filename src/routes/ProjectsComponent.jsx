@@ -2,8 +2,8 @@ import "../styles/index.css";
 
 export const ProjectsComponent = () => {
   return (
-    <>
-      <div className="container">
+    <div className="container">
+      <div className="containerTittle">
         <h1 className="tittleProject animation">My projects</h1>
       </div>
       <div className="containerProjects">
@@ -11,21 +11,13 @@ export const ProjectsComponent = () => {
         {/*proyecto #1*/}
         <div className="cart animation">
           <div className="contentCart"></div>
-          <img
-            className="imgProjects"
-            src="imgs/portafolio.png"
-            alt="portafolio"
-          />
+          <img className="imgProjects" src="imgs/portafolio.png" alt="portafolio" />
           <div className="dataCart">
             <p className="nameProject">Briefcase</p>
             <div className="containerImgs">
               <img className="img" src="/imgs/html.png" alt="html" />
               <img className="img" src="/imgs/css.png" alt="css" />
-              <img
-                className="img"
-                src="/imgs/responsive.png"
-                alt="responsive"
-              />
+              <img className="img" src="/imgs/responsive.png" alt="responsive" />
               <img className="img" src="/imgs/js.png" alt="js" />
               <img className="img" src="/imgs/reactJS.png" alt="React js" />
             </div>
@@ -38,27 +30,16 @@ export const ProjectsComponent = () => {
         {/*proyecto #2*/}
         <div className="cart animation">
           <div className="contentCart"></div>
-          <img
-            className="imgProjects"
-            src="imgs/countdown.png"
-            alt="countdown"
-          />
+          <img className="imgProjects" src="imgs/countdown.png" alt="countdown" />
           <div className="dataCart">
             <p className="nameProject">Countdown</p>
             <div className="containerImgs">
               <img className="img" src="/imgs/html.png" alt="html" />
               <img className="img" src="/imgs/css.png" alt="css" />
-              <img
-                className="img"
-                src="/imgs/responsive.png"
-                alt="responsive"
-              />
+              <img className="img" src="/imgs/responsive.png" alt="responsive" />
               <img className="img" src="/imgs/js.png" alt="js" />
             </div>
-            <a
-              className="btnLink"
-              href="https://countdownyonnydev.netlify.app/"
-            >
+            <a className="btnLink" href="https://countdownyonnydev.netlify.app/" >
               Link
             </a>
           </div>
@@ -95,10 +76,7 @@ export const ProjectsComponent = () => {
               <img className="img" src="/imgs/css.png" alt="css" />
               <img className="img" src="/imgs/js.png" alt="js" />
             </div>
-            <a
-              className="btnLink"
-              href="https://piedra-papel-tijera-game-v1.netlify.app/"
-            >
+            <a className="btnLink" href="https://piedra-papel-tijera-game-v1.netlify.app/" >
               Link
             </a>
           </div>
@@ -113,11 +91,7 @@ export const ProjectsComponent = () => {
             <div className="containerImgs">
               <img className="img" src="/imgs/html.png" alt="html" />
               <img className="img" src="/imgs/css.png" alt="css" />
-              <img
-                className="img"
-                src="/imgs/responsive.png"
-                alt="responsive"
-              />
+              <img className="img" src="/imgs/responsive.png" alt="responsive" />
               <img className="img" src="/imgs/js.png" alt="js" />
               <img className="img" src="/imgs/reactJS.png" alt="React js" />
             </div>
@@ -136,11 +110,7 @@ export const ProjectsComponent = () => {
               <div className="containerImgs">
                 <img className="img" src="/imgs/html.png" alt="html" />
                 <img className="img" src="/imgs/css.png" alt="css" />
-                <img
-                  className="img"
-                  src="/imgs/responsive.png"
-                  alt="responsive"
-                />
+                <img className="img" src="/imgs/responsive.png" alt="responsive" />
                 <img className="img" src="/imgs/js.png" alt="js" />
               </div>
               <a className="btnLink" href="https://cardformyonnydev.netlify.app/">
@@ -148,7 +118,24 @@ export const ProjectsComponent = () => {
               </a>
             </div>
           </div>
+
+          {/*proyecto #7*/}
+          <div className="cart animation">
+            <div className="contentCart"></div>
+            <img className="imgProjects" src="imgs/crud.jpg" alt="cardform" />
+            <div className="dataCart">
+              <p className="nameProject">Crud university</p>
+              <div className="containerImgs">
+                <img className="img" src="/imgs/bootstrap.png" alt="bootstrap" />
+                <img className="img" src="/imgs/vue.png" alt="vue" />
+                <img className="img" src="/imgs/laravel.png" alt="laravel" />
+              </div>
+              <a className="btnLink" href="https://github.com/yonny-147/CRUD-universidad">
+                Link
+              </a>
+            </div>
+          </div>
       </div>
-    </>
+    </div>
   );
 };
