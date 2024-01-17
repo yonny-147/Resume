@@ -25,7 +25,7 @@ body{
     height: 13vh;
     background-color: #00000080;
     box-shadow: 1px 1px 15px #00000080;
-    animation:scale-up-center 0.4s; 
+    animation:scale-up-center 0.4s ease-in-out; 
 }
 
 nav{
@@ -37,7 +37,13 @@ nav{
     width: 30px;
     margin: 20px;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(109%) contrast(102%);
+    cursor: pointer;
 }
+
+.header.open {
+    transform: translateY(-100%);
+  }
+  
 
 .cancel{
     display: none;
@@ -559,11 +565,16 @@ p{
 
 @media(max-width: 425px){
     .header{
-        display: none;
         position: absolute;
-        height: 100vh;
+        height: 100%;
         z-index: 1;
         background-color: #003026;
+        top: -100%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header.open{
+        transform: translateY(100%);
     }
     
     nav{
