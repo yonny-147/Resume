@@ -33,7 +33,7 @@ export const BarNavegation = () => {
         </nav>
     </div>
     <div>
-        <button className='btnMenu' onClick={fMenuOpen} onTouchStart={fMenuOpen}><img className='menu' src="./imgs/menu.png" alt="menu"/></button>
+        <button className='btnMenu' onClick={fMenuOpen} ><img className='menu' src="./imgs/menu.png" alt="menu"/></button>
     </div>
     </>
   )
