@@ -17,7 +17,7 @@ export const BarNavegation = () => {
   return (
     <>
     <div className={`header ${menuOpen ? "open" : ""}`}>
-        <button className='btnMenu' onClick={fMenuClose}><img className='cancel' src="./imgs/cancelar.png" alt="cancelar" /></button>
+        <button className='btnMenu' onClick={fMenuClose} onTouchStart={fMenuClose}><img className='cancel' src="./imgs/cancelar.png" alt="cancelar" /></button>
         <nav>
             <ul>
                 <li>
@@ -33,7 +33,7 @@ export const BarNavegation = () => {
         </nav>
     </div>
     <div>
-        <button className='btnMenu' onClick={fMenuOpen}><img className='menu' src="./imgs/menu.png" alt="menu"/></button>
+        <button className='btnMenu' onClick={fMenuOpen} onTouchStart={fMenuOpen}><img className='menu' src="./imgs/menu.png" alt="menu"/></button>
     </div>
     </>
   )
