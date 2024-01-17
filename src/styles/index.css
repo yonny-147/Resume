@@ -35,6 +35,7 @@ nav{
 .btnMenu{
     background-color: transparent;
     border: none;
+    margin-top: 10px;
 }
 
 .menu{
@@ -54,10 +55,10 @@ nav{
 .cancel{
     display: none;
     position: absolute;
-    width: 15px;
+    width: 18px;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(109%) contrast(102%);
-    top: 5%;
-    left: 10%;
+    top: 6%;
+    left: 8%;
 }
 
 ul{
