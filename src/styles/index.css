@@ -618,6 +618,7 @@ p{
     }
 
     .containerImage{
+        height: 50vh;
         margin: 85px auto 0px;
     }
 
@@ -740,4 +741,30 @@ p{
     }
 }
 
+
+@media(max-width: 260px){
+    .position1{
+        top: 17%;
+    }
+    .position2{
+        top: 83%;
+    }
+    .containerImage{
+        height: 40vh;
+    }
+    .marco{
+        width: 160px;
+        height: 160px;
+    }
+
+    .image{
+        width: 160px;
+        height: 220px;
+        top: 105.2%;
+    }
+
+    .tittleProject{
+        font-size: 27px;
+    }
+}
 
