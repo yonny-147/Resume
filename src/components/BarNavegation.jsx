@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll';
 import '../styles/index.css'
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 export const BarNavegation = () => {
 
@@ -8,10 +9,12 @@ export const BarNavegation = () => {
 
     const fMenuOpen = () => {
         setMenuOpen(true)
+        document.body.classList.toggle('no-scroll');
     }
 
     const fMenuClose = () => {
         setMenuOpen(false)
+        document.body.classList.remove('no-scroll');
     }
 
   return (
