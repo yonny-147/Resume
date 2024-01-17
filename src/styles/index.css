@@ -33,12 +33,14 @@ nav{
 }
 
 .menu{
+    display: none;
     width: 30px;
     margin: 20px;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(109%) contrast(102%);
 }
 
 .cancel{
+    display: none;
     position: absolute;
     width: 15px;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(109%) contrast(102%);
@@ -569,10 +571,19 @@ p{
         margin: auto;
     }
 
+    .cancel{
+        display: block;
+    }
+
     nav ul{
         height: 100%;
         flex-direction: column;
     }
+
+    .menu{
+        display: block;
+    }
+
 
     .position1{
         display: block;
@@ -708,158 +719,3 @@ p{
 }
 
 
-@media(min-width: 375px) and (max-width: 667px){
-    .position2{
-        top: 72%;
-    }
-    
-    .curriDownload{
-        text-align: center;
-    }
-
-    .containerImage{
-        height: 45vh;
-    }
-
-    .marco{
-        margin-top: 40px;
-    }
-    
-    .image{
-        top: 73.4%;
-        right: 16%;
-    }
-
-    .socialImg{
-        width: 45px;
-    }
-}
-
-@media(min-width: 414px) and (max-width: 896px){
-    .position2{
-        top: 65%;
-    }
-
-    .image{
-        top: 70%;
-        right: 19%;
-    }
-
-    .containerImage{
-        height: 40vh;
-    }
-
-    .img{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tittleProject{
-        margin: 20px;
-    }
-
-    .containerContact{
-        height: 580px;
-    }
-}
-
-@media(min-width: 390px) and (max-width: 894px){
-    .position2{
-        top: 65%;
-    }
-    
-    .image{
-        top: 70.6%;
-    }
-
-    .tittleProject{
-        margin: 20px;
-    }
-
-    .containerContact{
-        height: 580px;
-    }
-}
-
-@media(min-width: 430px) and (max-width: 932px){
-    .header{
-        display: none;
-        position: absolute;
-        height: 100vh;
-        z-index: 1;
-        background-color: #003026;
-    }
-    
-    nav{
-        height: 100vh;
-        margin: auto;
-    }
-
-    nav ul{
-        height: 100%;
-        flex-direction: column;
-    }
-
-    .position1{
-        display: block;
-        top: 14%;
-    }
-
-    .position2{
-        display: block;
-        top: 65%;
-    }
-
-    .containerImage{
-        height: 30vh;
-    }
-
-    .image{
-        top: 65.9%;
-    }
-}
-
-@media(min-width: 412px) and (max-width: 915px){
-    .containerImage{
-        height: 35vh;
-    }
-    
-    .image{
-        top: 69.8%;
-        right: 19%;
-    }
-}
-
-@media(min-width: 360px) and (max-width: 740px){
-    .position2{
-        top: 70%;
-    }
-    
-    .containerImage{
-        height: 40vh;
-    }
-    
-    .image{
-        top: 72%;
-        right: 15%;
-    }
-}
-
-@media(min-width: 412px) and (max-width: 915px){
-    .position2{
-        top: 65%;
-    }
-    
-    .containerImage{
-        height: 35vh;
-    }
-    
-    .image{
-        top: 69.9%;
-        right: 19%;
-    }
-}
-
-@media(min-width: 768px) and (max-width: 1024px){
-
-}
