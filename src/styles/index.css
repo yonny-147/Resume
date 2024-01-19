@@ -110,7 +110,7 @@ p{
 }
 
 .position2{
-    top: 86%;
+    top: 90%;
 }
 
 .curriculumGene {
@@ -188,7 +188,7 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 100%;
+    width: 90%;
     margin: auto;
     padding: 30px 0;
     text-align: center;
