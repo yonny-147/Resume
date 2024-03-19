@@ -8,26 +8,8 @@ export const ProjectsComponent = () => {
       </div>
       <div className="containerProjects">
 
+    
         {/*proyecto #1*/}
-        <div className="cart animation">
-          <div className="contentCart"></div>
-          <img className="imgProjects" src="imgs/portafolio.png" alt="portafolio" />
-          <div className="dataCart">
-            <p className="nameProject">Briefcase</p>
-            <div className="containerImgs">
-              <img className="img" src="/imgs/html.png" alt="html" />
-              <img className="img" src="/imgs/css.png" alt="css" />
-              <img className="img" src="/imgs/responsive.png" alt="responsive" />
-              <img className="img" src="/imgs/js.png" alt="js" />
-              <img className="img" src="/imgs/reactJS.png" alt="React js" />
-            </div>
-            <a className="btnLink" href="https://portafolioyososp.netlify.app/">
-              Link
-            </a>{" "}
-          </div>
-          </div>
-        
-        {/*proyecto #2*/}
         <div className="cart animation">
           <div className="contentCart"></div>
           <img className="imgProjects" src="imgs/countdown.png" alt="countdown" />
@@ -45,7 +27,7 @@ export const ProjectsComponent = () => {
           </div>
         </div>
 
-        {/*proyecto #3*/}
+        {/*proyecto #2*/}
         <div className="cart animation">
           <div className="contentCart"></div>
           <img className="imgProjects" src="imgs/grades.png" alt="grades" />
@@ -65,7 +47,7 @@ export const ProjectsComponent = () => {
           </div>
         </div>
 
-        {/*proyecto #4*/}
+        {/*proyecto #3*/}
         <div className="cart animation">
           <div className="contentCart"></div>
           <img className="imgProjects" src="imgs/piedra.jpg" alt="piedra" />
@@ -82,7 +64,7 @@ export const ProjectsComponent = () => {
           </div>
         </div>
 
-        {/*proyecto #5*/}
+        {/*proyecto #4*/}
         <div className="cart animation">
           <div className="contentCart"></div>
           <img className="imgProjects" src="imgs/gallery.png" alt="gallery" />
@@ -101,7 +83,7 @@ export const ProjectsComponent = () => {
           </div>
         </div>
 
-        {/*proyecto #6*/}
+        {/*proyecto #5*/}
           <div className="cart animation">
             <div className="contentCart"></div>
             <img className="imgProjects" src="imgs/cardform.png" alt="cardform" />
@@ -119,7 +101,7 @@ export const ProjectsComponent = () => {
             </div>
           </div>
 
-          {/*proyecto #7*/}
+          {/*proyecto #6*/}
           <div className="cart animation">
             <div className="contentCart"></div>
             <img className="imgProjects" src="imgs/crud.jpg" alt="cardform" />
