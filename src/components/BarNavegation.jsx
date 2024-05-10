@@ -1,7 +1,6 @@
 import { Link } from 'react-scroll';
 import '../styles/index.css'
 import { useState } from 'react';
-import { useEffect } from 'react';
 
 export const BarNavegation = () => {
 
@@ -27,10 +26,13 @@ export const BarNavegation = () => {
                     <Link to='home' smooth={true} duration={500} className='firsText' onClick={fMenuClose} >About</Link>
                 </li>
                 <li>
-                    <Link to='projects' smooth={true} duration={500} className='firsText' onClick={fMenuClose}>Projects</Link>
+                    <Link to='projects' smooth={true} duration={500} className='firsText' onClick={fMenuClose}>Experiences</Link>
                 </li>
                 <li>
                     <Link to='contact' smooth={true} duration={500} className='firsText' onClick={fMenuClose}>Contact</Link>
+                </li>
+                <li>
+                    <Link to='../routes/login.jsx' smooth={true} duration={500} className='firsText'>Log in</Link>
                 </li>
             </ul>
         </nav>
