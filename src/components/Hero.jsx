@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from 'react'
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion'
 
 const roles = [
-  'Full Stack Developer',
   'Full Stack Developer with AI',
 ]
 
